@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Habit Tracker</title>
+</head>
+<body>
+    <h1>Log Study Session</h1>
+    <form action="/log" method="POST">
+        <label for="date">Date (YYYY-MM-DD):</label>
+        <input type="text" id="date" name="date"><br><br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"><br><br>
+        <label for="duration">Duration (hours):</label>
+        <input type="text" id="duration" name="duration"><br><br>
+        <label for="notes">Notes (optional):</label>
+        <input type="text" id="notes" name="notes"><br><br>
+        <input type="submit" value="Log Study Session">
+    </form>
+</body>
+</html>
