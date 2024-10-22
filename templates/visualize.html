@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Visualizations</title>
+</head>
+<body>
+    <h1>Select Visualization Type</h1>
+    <form action="/visualize-result" method="POST">
+        <label for="visualization">Choose a visualization:</label>
+        <select id="visualization" name="visualization">
+            <option value="weekly_hours">7 weekly_hours</option>
+            <option value="subject_hours">2 subject_hours</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Generate Visualization">
+    </form>
+</body>
+</html>
